@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+/* nav start */
+header{
+    height: 10vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav{
+    height: 100%;
+    width: 80%;
+    /* background-color: blue;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav .nav-container-one{
+    height:100%;
+    width:35%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 30px;
+}
+header nav .nav-container-one ul{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 30px;
+}
+header nav .nav-container-one ul li{
+    font-weight: 700;
+    font-size: 16px;
+    list-style: none;
+    color:rgb(51, 43, 0);
+}
+header nav .nav-container-one ul li:nth-child(1){
+    border-bottom: 3px solid rgb(251, 212, 1);
+}
+header nav .nav-container-one ul li:nth-child(2):hover{
+    border-bottom: 3px solid rgb(251, 212, 1);
+}
+header nav .nav-container-one ul li:nth-child(3):hover{
+    border-bottom: 3px solid rgb(251, 212, 1);
+}
+header nav .nav-container-two{
+    height:100%;
+    width:35%;
+    /* background-color: rgb(43, 226, 171); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav .nav-container-two img{
+     height: 250%;
+    width:250%;
+}
+header nav .nav-container-three{
+    height:100%;
+    width:35%;
+    /* background-color:red; */
+    display: flex;
+    align-items: center;
+    justify-content:right;
+
+}
+header nav .nav-container-three button{
+      border: none;
+      background-color:rgb(251, 212, 1) ;
+      color:rgb(51, 43, 0);
+      padding: 10px 20px;
+      text-align: center;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+}
+header nav .nav-container-three button:hover{
+    color:rgb(251, 212, 1);
+    background-color: rgb(101, 61, 33);
+    transition: 600ms;
+}
+/* nav ends */
+
+/* footer start */
+.section-footer{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(255, 247, 204);
+}
