@@ -197,7 +197,7 @@ left: 30px;
 main .section-one{
     height: 100vh;
     width: 100%;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
     display: flex;
     align-items: center;
     justify-content: center;  
@@ -542,8 +542,6 @@ main .section-three .section-three-con .section-three-con-one .section-three-car
     object-fit: contain;
 }
 
-
-
 main .section-three .section-three-con .section-three-con-one .section-three-card .card-con .card-con-two{
     height: 40%;
     width: 80%;
@@ -780,7 +778,7 @@ main .section-four .section-four-con{
 main .section-four .section-four-con-one{
     height: 100%;
     width: 50%;
-    background-color: rgb(144, 37, 158);
+    /* background-color: rgb(144, 37, 158); */
 }
 main .section-four .section-four-con-one img{
     height: 100%;
