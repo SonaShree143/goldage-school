@@ -287,7 +287,7 @@ main .section-one .section-con-two .text-con .text-two p {
 main .section-one .section-con-three {
     height: 70%;
     width: 100%;
-    background-color: lightgreen;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1426,9 +1426,6 @@ main .section-five img {
     }
 }
 
-
-
-
 @media (max-width:901px) {
     main .section-one .section-con-three .image-con {
         height: 90%;
@@ -1494,8 +1491,7 @@ main .section-one .section-con-con p {
 
 @media (max-width:738px) {
     main .section-one .section-con-three .image-con {
-        /* height: 80%; */
-        height: 100%;
+        height: 80%;
         width: 33%;
         /* background-color:cadetblue; */
     }
@@ -1563,25 +1559,17 @@ main .section-one .section-con-three {
     gap: 10px;
 }
 main .section-one .section-con {
-    height: 100%;
+    height: 70%;
     width: 80%;
-    background-color: blueviolet;
-    flex-direction: column;
-}
-main .section-one {
-    gap:20px;
-}
-main .section-one .section-con-three {
-    flex-wrap: wrap;;
+    /* background-color: blueviolet; */
 }
 }
 
 @media (max-width:692px) {
     main .section-one {
-        height: auto;
+        height: 80vh;
         width: 100%;
-        /* background-color: blanchedalmond; */
-        background-color: lightskyblue;
+        background-color: blanchedalmond;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1618,7 +1606,7 @@ main .section-one .section-con-three {
     main .section-three .section-three-con .section-three-con-one .section-three-card .card-con .card-con-two .card-text-one {
         height: 70%;
         width: 100%;
-        background-color: burlywood;
+        /* background-color: burlywood; */
         font-size:clamp(0.625rem, 0.536vw + 0.518rem, 1rem);
     }
 
@@ -1744,7 +1732,7 @@ main .section-one .section-con-three {
     main .section-three .section-three-con .section-three-con-one .section-three-card .card-con .card-con-two {
         height: 40%;
         width: 90%;
-        background-color: chartreuse;
+        /* background-color: chartreuse; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1752,60 +1740,3 @@ main .section-one .section-con-three {
     
     }
 }
-
-
-
-/* New media query start */
-
-@media (max-width:660px) {
-    main .section-one .section-con-three .image-con {
-        /* display: none; */
-        background-color: lightcoral;
-        height: 100%;
-    }
-    main .section-one .section-con-three .image-con {
-        height: 300px;
-        width: 100%;
-    }
-    main .section-one .section-con {
-        height: 100%;
-        background-color: red !important;
-    }
-    main .section-one .section-con-three .image-con .img-con-one {
-        border-radius: 0px  ;
-    }
-    main .section-one .section-con-three .image-con .img-con-five {
-        border-radius: 0px;
-    }
-    main .section-one .section-con {
-        padding:20px 0px;
-    }
-    main .section-one .section-con-con {
-        height: auto;
-        padding: 20px 0px;
-    }
-    main .section-one .section-con-two .text-con {
-        padding-bottom: 20px;
-    }
-}
-@media (max-width:399px) {
-    main .section-one .section-con-two .text-con .text-one{
-        gap: 4px;
-    }
-    main .section-one .section-con-two .text-con .text-one p{
-        font-size: 14px;
-    }
-    main .section-one .section-con-two .text-con .text-one p:nth-child(2) {
-        font-size: 15px;
-    }
-    main .section-one .section-con-con p:nth-child(1) {
-        font-size: 15px;
-    }
-    main .section-one .section-con-con p:nth-child(2) {
-        font-size: 15px;
-    }
-
-}
-
-
-/* New media query end */
