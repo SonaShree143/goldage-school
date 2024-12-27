@@ -1305,12 +1305,12 @@ main .section-five img {
     main .section-four .section-four-con .section-four-wrapper {
         height: 100%;
         width: 80%;
-        background-color: burlywood;
+        /* background-color: burlywood; */
     }
     main .section-four .section-four-con .section-four-wrapper .text-two {
         height: 12%;
         width: 100%;
-        background-color: red;
+        /* background-color: red; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1321,7 +1321,7 @@ main .section-five img {
     main .section-four .section-four-con .section-four-wrapper .text-con-one {
         height: 50%;
         width: 100%;
-        background-color: aqua;
+        /* background-color: aqua; */
         display: flex;
         gap: 10px;
         align-items: center;
@@ -1372,7 +1372,7 @@ main .section-five img {
     main .section-four .section-four-con .section-four-wrapper .text-three .text-con {
         height: 10%;
         width: 100%;
-        background-color: rgb(162, 162, 243);
+        /* background-color: rgb(162, 162, 243); */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1394,12 +1394,12 @@ main .section-five img {
     main .section-four .section-four-con .section-four-wrapper .text-one {
         height: 3%;
         width: 100%;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
     }
     main .section-four .section-four-con .section-four-wrapper .text-three .text-con .text {
         height: 100%;
         width: 90%;
-        background-color: rgb(215, 243, 162);
+        /* background-color: rgb(215, 243, 162); */
         display: flex;
         align-items: center;
         justify-content: start;
@@ -1569,7 +1569,7 @@ main .section-one .section-con {
     main .section-one {
         height: 80vh;
         width: 100%;
-        background-color: blanchedalmond;
+        /* background-color: blanchedalmond; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1589,7 +1589,7 @@ main .section-one .section-con {
     main .section-one .section-con-two .text-con .text-two {
         height: 40%;
         width: 100%;
-        background-color: green;
+        /* background-color: green; */
     }
     main .section-one .section-con-two .text-con .text-two p {
         font-size: 10px;

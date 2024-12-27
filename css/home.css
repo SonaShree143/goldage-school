@@ -287,7 +287,7 @@ main .section-one .section-con-two .text-con .text-two p {
 main .section-one .section-con-three {
     height: 70%;
     width: 100%;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1305,12 +1305,12 @@ main .section-five img {
     main .section-four .section-four-con .section-four-wrapper {
         height: 100%;
         width: 80%;
-        background-color: burlywood;
+        /* background-color: burlywood; */
     }
     main .section-four .section-four-con .section-four-wrapper .text-two {
         height: 12%;
         width: 100%;
-        background-color: red;
+        /* background-color: red; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1321,7 +1321,7 @@ main .section-five img {
     main .section-four .section-four-con .section-four-wrapper .text-con-one {
         height: 50%;
         width: 100%;
-        background-color: aqua;
+        /* background-color: aqua; */
         display: flex;
         gap: 10px;
         align-items: center;
@@ -1372,7 +1372,7 @@ main .section-five img {
     main .section-four .section-four-con .section-four-wrapper .text-three .text-con {
         height: 10%;
         width: 100%;
-        background-color: rgb(162, 162, 243);
+        /* background-color: rgb(162, 162, 243); */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1394,12 +1394,12 @@ main .section-five img {
     main .section-four .section-four-con .section-four-wrapper .text-one {
         height: 3%;
         width: 100%;
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
     }
     main .section-four .section-four-con .section-four-wrapper .text-three .text-con .text {
         height: 100%;
         width: 90%;
-        background-color: rgb(215, 243, 162);
+        /* background-color: rgb(215, 243, 162); */
         display: flex;
         align-items: center;
         justify-content: start;
@@ -1565,7 +1565,7 @@ main .section-one .section-con-three {
 main .section-one .section-con {
     height: 100%;
     width: 80%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     flex-direction: column;
 }
 main .section-one {
@@ -1581,7 +1581,7 @@ main .section-one .section-con-three {
         height: auto;
         width: 100%;
         /* background-color: blanchedalmond; */
-        background-color: lightskyblue;
+        /* background-color: lightskyblue; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1601,7 +1601,7 @@ main .section-one .section-con-three {
     main .section-one .section-con-two .text-con .text-two {
         height: 40%;
         width: 100%;
-        background-color: green;
+        /* background-color: green; */
     }
     main .section-one .section-con-two .text-con .text-two p {
         font-size: 10px;
@@ -1618,7 +1618,7 @@ main .section-one .section-con-three {
     main .section-three .section-three-con .section-three-con-one .section-three-card .card-con .card-con-two .card-text-one {
         height: 70%;
         width: 100%;
-        background-color: burlywood;
+        /* background-color: burlywood; */
         font-size:clamp(0.625rem, 0.536vw + 0.518rem, 1rem);
     }
 
@@ -1744,7 +1744,7 @@ main .section-one .section-con-three {
     main .section-three .section-three-con .section-three-con-one .section-three-card .card-con .card-con-two {
         height: 40%;
         width: 90%;
-        background-color: chartreuse;
+        /* background-color: chartreuse; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1760,7 +1760,7 @@ main .section-one .section-con-three {
 @media (max-width:660px) {
     main .section-one .section-con-three .image-con {
         /* display: none; */
-        background-color: lightcoral;
+        /* background-color: lightcoral; */
         height: 100%;
     }
     main .section-one .section-con-three .image-con {
@@ -1769,7 +1769,7 @@ main .section-one .section-con-three {
     }
     main .section-one .section-con {
         height: 100%;
-        background-color: red !important;
+        /* background-color: red !important; */
     }
     main .section-one .section-con-three .image-con .img-con-one {
         border-radius: 0px  ;
