@@ -1,2 +1,2 @@
-# goldage-school
-this is my website
+# Goldage-School
+This is a E-learning platform for Elders
